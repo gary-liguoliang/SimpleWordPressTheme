@@ -50,6 +50,9 @@
                     <?php get_archives('monthly','','option'); ?>
                 </select>
             </form>
+	<hr />
+	<h3>AD</h3>
+		<span>AD comes here</span>
         </div>
     </div>
 </div>
