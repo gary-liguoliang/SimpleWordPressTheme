@@ -52,7 +52,15 @@
             </form>
 	<hr />
 	<h3>AD</h3>
-		<span>AD comes here</span>
+		<span><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 250x250, 创建于 09-9-9 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-4700775013300998"
+     data-ad-slot="7292549554"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></span>
         </div>
     </div>
 </div>
