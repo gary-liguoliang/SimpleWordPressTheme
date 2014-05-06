@@ -35,10 +35,36 @@
           </div>
           <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                  <li><a href="#"></a></li>
+                  <li><a href="/category/java/" title="Core Java, JEE">/Java</a></li>
+                  <li><a href="/category/dev-notes/" title="Development Notes">/DevNotes</a></li>
+                  <li><a href="/category/frontend/" title="Flex, JavaScript">/FrontEnd</a></li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">/Incubator<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="/category/db/" title="DataBase, SQL Server, Oracle, ETL/SSIS;">Database</a></li>
+                          <li><a href="/tag/wordpress/">WordPress</a></li>
+                          <li><a href="/tag/lifesg/">Life@新加坡</a></li>
+                          <li><a href="/category/uncategorized/">Uncategorized</a></li>
+                          <li class="divider"></li>
+                          <li class="dropdown-header">Learning</li>
+                          <li><a href="/tag/shell/">Shell</a></li>
+                          <li><a href="/tag/python/">Python</a></li>
+                          <li><a href="/tag/haskell/">Haskell</a></li>
+                          <li><a href="/tag/php/">PHP</a></li>
+                      </ul>
+                  </li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
-                  <li><a href="./about_me/">About</a></li>
+
+                  <li><a href="/category/newlife/" title="乱写, 看了蛋疼莫怪我!">/垃圾山</a></li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">/About<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="/about_me/">About Me</a></li>
+                          <li><a href="/links/">Links</a></li>
+                      </ul>
+                  </li>
+
               </ul>
           </div><!--/.nav-collapse -->
       </div>

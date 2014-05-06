@@ -11,11 +11,12 @@
                     echo "<h2><a href='"; the_permalink(); echo " '>"; the_title(); echo "</a></h2>";
                     echo "<small class=\"text-muted\">";
 
-                    the_tags('Tagged with: ',' • ',' @ '); the_time('F jS, Y'); echo " "; the_time('G:i');
+                    echo "Categories: "; the_category(' &bull; '); the_tags('; Tagged with: ',' • ','; @ '); the_time('F jS, Y'); echo " "; the_time('G:i');
                     echo "</small>";
                     the_content();
                 } // end while
             } // end if
+
 
             // Print Next/Previous link --- page or post
             echo '<p class="text-muted text-center">';
@@ -37,7 +38,7 @@
             <?php if ( function_exists('wp_tag_cloud') ) : ?>
                 <h3>Popular Tags</h3>
                 <ul>
-                    <li><?php wp_tag_cloud('smallest=8&largest=22'); ?></li>
+                    <li><?php wp_tag_cloud('smallest=8&largest=20'); ?></li>
                 </ul>
             <?php endif; ?>
             </hr>
