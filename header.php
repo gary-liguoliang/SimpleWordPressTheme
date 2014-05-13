@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title><?php wp_title(''); ?> </title>
+    <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" media="all">
+      <title><?php wp_title(''); ?> </title>
 
     <!-- Bootstrap -->
  <!--   <link href="css/bootstrap.min.css" rel="stylesheet">i -->
@@ -19,8 +19,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-
+  <body onload="renderCode();">
   <!-- Fixed navbar -->
   <div class="navbar navbar-default" role="navigation">
       <div class="container">
